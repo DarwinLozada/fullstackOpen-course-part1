@@ -1,0 +1,106 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0 5em 0 5em;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  display: flex;
+  border: 5px;
+  border-bottom: solid 2px rgba(231, 134, 43, 0.4);
+  max-width: 300px;
+}
+
+h2 {
+  color: rgb(185, 116, 51);
+  border-bottom: solid 2px rgba(158, 158, 158, 0.4);
+}
+
+.button-container {
+  display: flex;
+  margin: 1em 0 1em 0;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+button {
+  padding: 0em 0.8em 0em 0.8em;
+  margin: 1em;
+  width: 8em;
+  height: 3.8em;
+  background-color: rgb(36, 129, 129);
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s ease;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgba(129, 105, 105, 0.2);
+  color: rgb(49, 48, 48);
+  width: 9em;
+}
+
+.statistics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1em;
+}
+
+.statistic {
+  margin: 0.2em;
+}
+
+.feedback {
+  display: flex;
+}
+
+.feedback .statistic {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(248, 238, 182, 0.5);
+  width: 3em;
+  height: 2em;
+  padding: 0.5em 2em 1em 2em;
+}
+
+.feedback .statistic-key {
+  color: rgb(36, 129, 129);
+  font-weight: 600;
+}
+
+.average {
+  display: flex;
+  margin-top: 1em;
+  justify-items: center;
+  align-items: center;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.average .statistic {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(179, 177, 169, 0.5);
+  width: 3em;
+  height: 2em;
+  padding: 0.5em 2em 1em 2em;
+  align-items: center;
+}
+.average .statistic-key {
+  color: rgb(146, 100, 48);
+}
